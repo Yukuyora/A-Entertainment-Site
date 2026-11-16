@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Watch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">&larr; BACK</a>
+  </header>
+
+  <main class="watch-container">
+    <div class="player-wrapper">
+      <video id="videoPlayer" controls playsinline preload="metadata"></video>
+    </div>
+
+    <div class="watch-header">
+      <h1 id="videoTitle" class="watch-title">Loading...</h1>
+      <div class="action-buttons">
+        <button id="streamBtn" class="btn btn-stream" type="button">Stream Now</button>
+        <a id="downloadBtn" class="btn btn-download" href="#" download>Download MP4</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
