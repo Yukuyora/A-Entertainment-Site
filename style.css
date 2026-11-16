@@ -56,17 +56,19 @@ header {
 
 .video-card {
   background: #141414;
+  border: 1px solid #eaeaea;
   border-radius: 8px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.15s ease, background 0.15s ease;
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
   display: block;
 }
 
 .video-card:hover {
   transform: translateY(-3px);
   background: #1b1b1b;
+  border-color: #ffffff;
 }
 
 .thumb-wrapper {
