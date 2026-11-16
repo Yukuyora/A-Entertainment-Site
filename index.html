@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Video Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videos</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="background-color: black; color: white; font-family: sans-serif; padding: 40px;">
-  <h1>My Video Site Works</h1>
-  <p>Step 1 complete.</p>
+<body>
+  <header>
+    <a href="index.html" class="logo">ARCHIVE</a>
+    <input type="text" id="searchInput" placeholder="Search videos..." autocomplete="off" />
+  </header>
+
+  <main>
+    <div id="videoGrid" class="video-grid"></div>
+    <p id="statusMsg" class="status-msg" style="display: none;">No videos found.</p>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
